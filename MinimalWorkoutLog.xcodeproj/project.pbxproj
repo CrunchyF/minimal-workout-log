@@ -1,0 +1,110 @@
+// !$*UTF8*$!
+{
+    archiveVersion = 1;
+    classes = {};
+    objectVersion = 56;
+    objects = {
+
+/* Begin PBXBuildFile section */
+        1FAPP0001 /* MinimalWorkoutLogApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FAPP1001 /* MinimalWorkoutLogApp.swift */; };
+        1FAPP0002 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FAPP1002 /* Models.swift */; };
+        1FAPP0003 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FAPP1003 /* RootView.swift */; };
+        1FAPP0004 /* AppTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FAPP1004 /* AppTheme.swift */; };
+        1FAPP0005 /* OnboardingFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FAPP1005 /* OnboardingFlow.swift */; };
+        1FAPP0006 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FAPP1006 /* HomeView.swift */; };
+        1FAPP0007 /* TemplateCreationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FAPP1007 /* TemplateCreationView.swift */; };
+        1FAPP0008 /* WorkoutExecutionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FAPP1008 /* WorkoutExecutionView.swift */; };
+        1FAPP0009 /* WorkoutSummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FAPP1009 /* WorkoutSummaryView.swift */; };
+        1FAPP0010 /* StatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FAPP1010 /* StatsView.swift */; };
+        1FAPP0011 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FAPP1011 /* SettingsView.swift */; };
+        1FAPP0012 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FRES1001 /* Assets.xcassets */; };
+        1FAPP0013 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1FINFO1001 /* Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+        1FAPP1001 /* MinimalWorkoutLogApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinimalWorkoutLogApp.swift; sourceTree = "<group>"; };
+        1FAPP1002 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+        1FAPP1003 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+        1FAPP1004 /* AppTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTheme.swift; sourceTree = "<group>"; };
+        1FAPP1005 /* OnboardingFlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingFlow.swift; sourceTree = "<group>"; };
+        1FAPP1006 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+        1FAPP1007 /* TemplateCreationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateCreationView.swift; sourceTree = "<group>"; };
+        1FAPP1008 /* WorkoutExecutionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutExecutionView.swift; sourceTree = "<group>"; };
+        1FAPP1009 /* WorkoutSummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutSummaryView.swift; sourceTree = "<group>"; };
+        1FAPP1010 /* StatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsView.swift; sourceTree = "<group>"; };
+        1FAPP1011 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+        1FRES1001 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Resources/Assets.xcassets; sourceTree = "<group>"; };
+        1FINFO1001 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+        1FENT1001 /* MinimalWorkoutLog.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MinimalWorkoutLog.entitlements; sourceTree = "<group>"; };
+        1FPRD1001 /* MinimalWorkoutLog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MinimalWorkoutLog.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+        1FFRAME1001 /* Frameworks */ = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+        1FGROUP1000 = {isa = PBXGroup; children = (1FAPP2001, 1FRES2001, 1FINFO1001, 1FENT1001, 1FPRD2001); sourceTree = "<group>"; };
+        1FAPP2001 = {isa = PBXGroup; children = (1FAPP1001, 1FAPP1002, 1FAPP1003, 1FAPP1004, 1FAPP1005, 1FAPP1006, 1FAPP1007, 1FAPP1008, 1FAPP1009, 1FAPP1010, 1FAPP1011); path = MinimalWorkoutLog; sourceTree = "<group>"; };
+        1FRES2001 = {isa = PBXGroup; children = (1FRES1001, ); path = MinimalWorkoutLog; sourceTree = "<group>"; };
+        1FPRD2001 = {isa = PBXGroup; children = (1FPRD1001, ); name = Products; sourceTree = "<group>"; };
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+        1FTARGET1001 /* MinimalWorkoutLog */ = {isa = PBXNativeTarget; buildConfigurationList = 1FBCL1001 /* Build configuration list for PBXNativeTarget "MinimalWorkoutLog" */; buildPhases = (1FSOURCES1001, 1FFRAME1001, 1FRESOURCES1001); buildRules = (); dependencies = (); name = MinimalWorkoutLog; productName = MinimalWorkoutLog; productReference = 1FPRD1001 /* MinimalWorkoutLog.app */; productType = "com.apple.product-type.application"; };
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+        1FPROJ1000 /* Project object */ = {isa = PBXProject; attributes = {LastSwiftUpdateCheck = 1500; LastUpgradeCheck = 1500; TargetAttributes = {1FTARGET1001 = {DevelopmentTeam = ""; ProvisioningStyle = Automatic; SystemCapabilities = {com.apple.CloudKit = {enabled = 1; }; }; }; }; }; buildConfigurationList = 1FBCL2001 /* Build configuration list for PBXProject "MinimalWorkoutLog" */; compatibilityVersion = "Xcode 15.0"; developmentRegion = en; hasScannedForEncodings = 0; knownRegions = (en); mainGroup = 1FGROUP1000; productRefGroup = 1FPRD2001; projectDirPath = ""; projectRoot = ""; targets = (1FTARGET1001); };
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+        1FRESOURCES1001 /* Resources */ = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (1FAPP0012 /* Assets.xcassets in Resources */, 1FAPP0013 /* Info.plist in Resources */); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+        1FSOURCES1001 /* Sources */ = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (1FAPP0001, 1FAPP0002, 1FAPP0003, 1FAPP0004, 1FAPP0005, 1FAPP0006, 1FAPP0007, 1FAPP0008, 1FAPP0009, 1FAPP0010, 1FAPP0011); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+        1FBCCONFIG1001 /* Debug */ = {isa = XCBuildConfiguration; buildSettings = {
+            ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+            CODE_SIGN_ENTITLEMENTS = MinimalWorkoutLog/MinimalWorkoutLog.entitlements;
+            CODE_SIGN_STYLE = Automatic;
+            CURRENT_PROJECT_VERSION = 1;
+            GENERATE_INFOPLIST_FILE = NO;
+            INFOPLIST_FILE = MinimalWorkoutLog/Info.plist;
+            IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+            PRODUCT_BUNDLE_IDENTIFIER = com.example.minimalworkoutlog;
+            PRODUCT_NAME = "$(TARGET_NAME)";
+            SWIFT_EMIT_LOC_STRINGS = YES;
+            SWIFT_VERSION = 5.0;
+            TARGETED_DEVICE_FAMILY = 1;
+            DEVELOPMENT_ASSET_PATHS = "";
+        }; name = Debug; };
+        1FBCCONFIG1002 /* Release */ = {isa = XCBuildConfiguration; buildSettings = {
+            ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+            CODE_SIGN_ENTITLEMENTS = MinimalWorkoutLog/MinimalWorkoutLog.entitlements;
+            CODE_SIGN_STYLE = Automatic;
+            CURRENT_PROJECT_VERSION = 1;
+            GENERATE_INFOPLIST_FILE = NO;
+            INFOPLIST_FILE = MinimalWorkoutLog/Info.plist;
+            IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+            PRODUCT_BUNDLE_IDENTIFIER = com.example.minimalworkoutlog;
+            PRODUCT_NAME = "$(TARGET_NAME)";
+            SWIFT_EMIT_LOC_STRINGS = YES;
+            SWIFT_VERSION = 5.0;
+            TARGETED_DEVICE_FAMILY = 1;
+            DEVELOPMENT_ASSET_PATHS = "";
+        }; name = Release; };
+        1FBCCONFIG2001 /* Debug */ = {isa = XCBuildConfiguration; buildSettings = {CLANG_ANALYZER_NONNULL = YES; CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE; CLANG_CXX_LANGUAGE_STANDARD = "gnu++20"; CLANG_ENABLE_MODULES = YES; CLANG_ENABLE_OBJC_ARC = YES; CLANG_WARN_DOCUMENTATION_COMMENTS = YES; CLANG_WARN_UNREACHABLE_CODE = YES; CLANG_WARN__DUPLICATE_METHOD_MATCH = YES; COPY_PHASE_STRIP = NO; DEBUG_INFORMATION_FORMAT = dwarf; ENABLE_STRICT_OBJC_MSGSEND = YES; ENABLE_TESTABILITY = YES; GCC_C_LANGUAGE_STANDARD = gnu11; GCC_NO_COMMON_BLOCKS = YES; GCC_WARN_SHADOW = YES; IPHONEOS_DEPLOYMENT_TARGET = 18.0; MTLLINKER_FLAGS = ""; ONLY_ACTIVE_ARCH = YES; SDKROOT = iphoneos; SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG; SWIFT_OPTIMIZATION_LEVEL = "-Onone"; SWIFT_VERSION = 5.0; TARGETED_DEVICE_FAMILY = 1; }; name = Debug; };
+        1FBCCONFIG2002 /* Release */ = {isa = XCBuildConfiguration; buildSettings = {CLANG_ANALYZER_NONNULL = YES; CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE; CLANG_CXX_LANGUAGE_STANDARD = "gnu++20"; CLANG_ENABLE_MODULES = YES; CLANG_ENABLE_OBJC_ARC = YES; CLANG_WARN_DOCUMENTATION_COMMENTS = YES; CLANG_WARN_UNREACHABLE_CODE = YES; CLANG_WARN__DUPLICATE_METHOD_MATCH = YES; COPY_PHASE_STRIP = NO; DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym"; ENABLE_NS_ASSERTIONS = NO; ENABLE_STRICT_OBJC_MSGSEND = YES; GCC_C_LANGUAGE_STANDARD = gnu11; GCC_NO_COMMON_BLOCKS = YES; IPHONEOS_DEPLOYMENT_TARGET = 18.0; MTLLINKER_FLAGS = ""; SDKROOT = iphoneos; SWIFT_COMPILATION_MODE = wholemodule; SWIFT_OPTIMIZATION_LEVEL = "-O"; SWIFT_VERSION = 5.0; TARGETED_DEVICE_FAMILY = 1; }; name = Release; };
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+        1FBCL1001 /* Build configuration list for PBXNativeTarget "MinimalWorkoutLog" */ = {isa = XCConfigurationList; buildConfigurations = (1FBCCONFIG1001, 1FBCCONFIG1002); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+        1FBCL2001 /* Build configuration list for PBXProject "MinimalWorkoutLog" */ = {isa = XCConfigurationList; buildConfigurations = (1FBCCONFIG2001, 1FBCCONFIG2002); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+/* End XCConfigurationList section */
+    };
+    rootObject = 1FPROJ1000 /* Project object */;
+}
